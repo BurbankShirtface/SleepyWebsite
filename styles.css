@@ -480,7 +480,7 @@ footer h6 {
 }
 .band-container {
     height: 450px;
-    margin: 5px 70px;
+    margin: 5px 100px;
     display: flex;
     flex-flow: column wrap;
     justify-items: space-evenly;
@@ -500,7 +500,7 @@ footer h6 {
 }
 .band-player {
     display: block;
-    margin: 40px auto;
+    margin: 25px auto;
     width: 50%;
     box-shadow: 5px 5px 4px rgb(41, 41, 41);
 }
@@ -521,4 +521,20 @@ footer h6 {
     margin-top: 5px;
     font-weight: 200;
 }
-  
+.stream {
+    display: flex;
+    flex-flow: column;
+    height: auto;
+    width: 40%;
+    margin: 30px auto;
+    text-align: center;
+    border: 1px solid rgb(39, 22, 22);
+    background-color: #cf9876;
+}
+.stream a, .stream a:visited {
+    margin: 5px;
+    color: rgb(105, 34, 8);
+}
+.stream a:hover {
+    color: rgb(44, 14, 3);
+}
