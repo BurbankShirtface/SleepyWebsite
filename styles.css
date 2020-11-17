@@ -490,6 +490,7 @@ footer h6 {
 }
 .band-container h3 {
     margin-top: 5px;
+    text-align: center;
 }
 .band-img {
     height: 350px;
@@ -509,6 +510,9 @@ footer h6 {
     margin: 120px auto;
     width: 50%;
     box-shadow: 5px 5px 4px rgb(41, 41, 41);
+}
+.band-player-small {
+    display: none;
 }
 .band-main p {
     display: block;
@@ -537,4 +541,44 @@ footer h6 {
 }
 .stream a:hover {
     color: rgb(44, 14, 3);
+}
+
+@media (max-width: 1050px) {
+    .band-container {
+        width: 90%;
+        margin: 5px auto;
+        padding: 20px;
+        height: 480px;
+    }
+}
+@media (max-width: 800px) {
+    .band-container {
+        width: 80%;
+        height: auto;
+        display: flex;
+        padding: 5px;
+    }
+    .stream {
+        width: 60%;
+    }
+}
+@media (max-width: 530px) {
+    .band-container {
+        width: 98%;
+        height: auto;
+        padding: 10px;
+    }
+    .band-img {
+        height: 250px;
+    }
+    .band-player {
+        display: none;
+    }
+    .band-player-small {
+        display: block;
+        margin: 10px auto;
+    }
+    .stream {
+        width: 90%;
+    }
 }
